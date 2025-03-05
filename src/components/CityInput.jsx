@@ -22,7 +22,7 @@ function CityInput() {
     // Load the Google Maps JavaScript API script
     useEffect(() => {
         const script = document.createElement("script");
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC5CDTsjlx11nZyUIavCsKPRS2ViWOPswA&libraries=places`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=[apiKeyHere]&libraries=places`;
         script.async = true;
         document.head.appendChild(script);
 
